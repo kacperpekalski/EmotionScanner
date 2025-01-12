@@ -1,7 +1,4 @@
-data/final/train/happy/
-data/final/train/sad/
-data/final/train/neutral/
-data/final/validation/
+data/final/
 data/preprocessed/
 data/raw/
 data/data.zip
