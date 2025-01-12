@@ -4,3 +4,5 @@ data/raw/
 data/data.zip
 ./.venv/
 .idea/
+data/final.zip
+models/trained_model_v3.h5
