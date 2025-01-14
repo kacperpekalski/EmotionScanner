@@ -1,0 +1,9 @@
+services:
+  emotion_scanner:
+    build: .
+    container_name: emotion_scanner_server
+    ports:
+      - "8000:8000" 
+      - "8501:8501" 
+    environment:
+      - PYTHONUNBUFFERED=1
