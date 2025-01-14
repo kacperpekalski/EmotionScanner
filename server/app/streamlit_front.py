@@ -4,7 +4,7 @@ import requests
 API_URL = "http://127.0.0.1:8000/v1/upload/" 
 
 def main():
-    st.title("Upload JPG to FastAPI Backend")
+    st.title("Upload JPG for Emotion Detection")
     
     uploaded_file = st.file_uploader("Choose a JPG file", type=["jpg", "jpeg"])
     
