@@ -1,0 +1,10 @@
+services:
+  emotion_scanner:
+    build: .
+    container_name: fastapi_app
+    ports:
+      - "8000:8000"
+      - "8501:8501"
+    network_mode: "host"
+
+    
